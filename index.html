@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☕Cozy Cup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header starts -->
+
+        <header>
+            <nav class="navbar section-content">
+                <a href="#" class="nav-logo">
+                    <h2 class="logo-text">☕ Cozy Cup</h2>
+                </a>
+                <ul class="nav-menu">
+                    <button id="menu-close-button" class="fas fa-times"></button>
+
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <button id="menu-open-button" class="fas fa-bars"></button>
+            </nav>
+        </header>
+
+    <!-- header ends -->
+
+    <!-- Page section starts -->
+
+        <main>
+            <!-- Home section starts -->
+            <section class="hero-section">
+                <div class="section-content">
+                    <div class="hero-details">
+                        <h2 class="title">Best Coffee</h2>
+                        <h3 class="subtitle">Make your day great with our special coffee!</h3>
+                        <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+
+                        <div class="buttons">
+                            <a href="#menu" class="button order-now">Order Now</a>
+                            <a href="#contact" class="button contact-us">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="hero-image-wrapper">
+                        <img src="images/coffee-img.png" alt="Hero" class="hero-image">
+                    </div>
+                </div>
+            </section>
+            <!-- Home section ends -->
+
+            <!-- About section starts -->
+            <section class="about-section" id="about">
+                <div class="section-content">
+                    <div class="about-image-wrapper">
+                        <img src="images/about-us-img.jpg" alt="" class="about-image">
+                    </div>
+                    <div class="about-details">
+                        <h2 class="section-title">About Us</h2>
+                        <p class="text">At Coffee House in Pune, India, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.</p>
+                        <div class="social-link-list">
+                            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About section ends -->
+
+            <!-- Menu section starts -->
+            <section class="menu-section" id="menu">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="section-content">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="images/hot-beverage.png" alt="Hot-beverage" class="menu-image">
+                            <h3 class="name">Hot Beverages</h3>
+                            <p class="text">Wide range of Streaming hot coffee to make you fresh and light.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="images/cold-beverage.webp" alt="Cold-beverage" class="menu-image">
+                            <h3 class="name">Cold Beverages</h3>
+                            <p class="text">Creamy and frothy cold
+                            coffee to make you cool.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="images/refreshment.png" alt="Refreshment" class="menu-image">
+                            <h3 class="name">Refreshment</h3>
+                            <p class="text">Fruit and icy refreshing drink to make feel fresh.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="images/combo.png" alt="Special-combo" class="menu-image">
+                            <h3 class="name">Special Combos</h3>
+                            <p class="text">Your favourite eating and drinking combinations.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="images/dessert.png" alt="Dessert" class="menu-image">
+                            <h3 class="name">Dessert</h3>
+                            <p class="text">Satiate your palette and take you on a cullinery treat.</p>
+                        </li>
+                        <li class="menu-item">
+                            <img src="images/burger-and-fries.png" alt="Burger-and-fries" class="menu-image">
+                            <h3 class="name">Burger & French Fries</h3>
+                            <p class="text">Quick bites to satisfy your small size hunger.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Menu section ends -->
+
+            <!-- Testimonials section starts -->
+            <section class="testimonials-section" id="testimonials">
+                <h2 class="section-title">Testimonials</h2>
+                <div class="section-content">
+                    <div class="slider-container swiper">
+                        <div class="slider-wrapper">
+                            <ul class="testimonials-list swiper-wrapper">
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/Jane-Hopper.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Jane Hopper</h3>
+                                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/Mike-Wheeler.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Mike Wheeler</h3>
+                                    <i class="feedback">"Great espresso blend! Smooth and bold flavour. Fast shipping too!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/Max-Mayfield.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Max Mayfield</h3>
+                                    <i class="feedback">"Fantastic mocha flavour. Fresh and aromatic. Quick shipping!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/Lucas-Sinclair.webp" alt="User" class="user-image">
+                                    <h3 class="name">Lucas Sinclair</h3>
+                                    <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly recommend."</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/Nancy-Wheeler.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Nancy Wheeler</h3>
+                                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/Steve-Harrington.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Steve Harrington</h3>
+                                    <i class="feedback">"Best decaf I've tried! Smooth and flavourful. Arrived promptly"</i>
+                                </li>
+                                <li class="testimonial swiper-slide">
+                                    <img src="images/Dustin-Henderson.jpg" alt="User" class="user-image">
+                                    <h3 class="name">Dustin Henderson</h3>
+                                    <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                                </li>
+                            </ul>
+
+                            <div class="swiper-pagination"></div>
+
+                            <div class="swiper-slide-button swiper-button-prev"></div>
+                            <div class="swiper-slide-button swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonials section ends -->
+
+            <!-- Gallery section starts -->
+            <section class="gallery-section" id="gallery">
+                <h2 class="section-title">Gallery</h2>
+                <div class="section-content">
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <img src="images/gallery-1.jpg" alt="" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-2.avif" alt="" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-3.avif" alt="" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-4.jpg" alt="" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-5.jpg" alt="" class="gallery-image">
+                        </li>
+                        <li class="gallery-item">
+                            <img src="images/gallery-6.jpg" alt="" class="gallery-image">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Gallery section ends -->
+
+            <!-- Contact section starts -->
+            <section class="contact-section" id="contact">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>123 Hinjewadi, Pune, Maharashtra-411057</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@cozycup.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(123) 456-78094</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Saturday: 10:00 AM - 3:00 PM</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Sunday: Closed</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>www.cozycupweb.com</p>
+                        </li>
+                    </ul>
+
+                    <form action="#" class="contact-form">
+                        <input type="text" placeholder="Your name" class="form-input" required>
+                        <input type="email" placeholder="Your email" class="form-input" required>
+                        <textarea placeholder="Your message" class="form-input" required></textarea>
+                        <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+            </section>
+            <!-- Contact section starts -->
+
+            <!-- Footer section starts -->
+            <footer class="footer-section">
+                <div class="section-content">
+                    <p class="copyright-text">© 2026 Cozy Cup</p>
+
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+
+                    <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy policy</a>
+                        <span class="separator">•</span>
+                        <a href="#" class="policy-link">Refund policy</a>
+                    </p>
+                </div>
+            </footer>
+            <!-- Footer section ends -->
+        </main>
+
+    <!-- Page section ends -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</html>
